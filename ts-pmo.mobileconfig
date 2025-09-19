@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>ConsentText</key>
+    <dict>
+        <key>default</key>
+        <string>This device enforces Content & Privacy Restrictions and cannot be changed by the user.</string>
+    </dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadDescription</key>
+            <string>Configures restrictions</string>
+            <key>PayloadDisplayName</key>
+            <string>Restrictions</string>
+            <key>PayloadIdentifier</key>
+            <string>com.apple.applicationaccess.FORCED</string>
+            <key>PayloadType</key>
+            <string>com.apple.applicationaccess</string>
+            <key>PayloadUUID</key>
+            <string>35E2E2FF-EBDA-49FA-AD0B-0CEBCC21E287</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+
+            <!-- FORCE restrictions ON -->
+            <key>allowEnablingRestrictions</key>
+            <false/>
+
+            <!-- Restricted items -->
+            <key>allowExplicitContent</key>
+            <false/>
+            <key>allowAppInstallation</key>
+            <false/>
+            <key>allowAppRemoval</key>
+            <false/>
+            <key>allowSafari</key>
+            <false/>
+            <key>allowiTunes</key>
+            <false/>
+            <key>allowInAppPurchases</key>
+            <false/>
+            <key>allowMultiplayerGaming</key>
+            <false/>
+            <key>allowInstallingConfigurationProfiles</key>
+            <false/>
+            <key>allowAirDrop</key>
+            <false/>
+            <key>allowCamera</key>
+            <false/>
+            <key>allowScreenShot</key>
+            <false/>
+            <key>allowVoiceDialing</key>
+            <false/>
+            <key>allowGameCenter</key>
+            <false/>
+            <key>allowExplicitContent</key>
+            <false/>
+            <key>ratingApps</key>
+            <integer>0</integer>
+            <key>ratingMovies</key>
+            <integer>0</integer>
+            <key>ratingTVShows</key>
+            <integer>0</integer>
+            <key>ratingRegion</key>
+            <string>ca</string>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>This profile FORCE-enables Content & Privacy Restrictions on supervised devices.</string>
+    <key>PayloadDisplayName</key>
+    <string>ForcedRestrictions</string>
+    <key>PayloadIdentifier</key>
+    <string>com.appleenterprise.ForcedRestrictions</string>
+    <key>PayloadOrganization</key>
+    <string>@SingleKeycap</string>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>C717143D-66D9-488D-A71E-8A145C5B11FB</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
