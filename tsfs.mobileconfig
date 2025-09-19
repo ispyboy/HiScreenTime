@@ -6,55 +6,19 @@
     <key>PayloadContent</key>
     <array>
         <dict>
+            <!-- Minimal dummy payload to satisfy iOS -->
             <key>PayloadType</key>
-            <string>com.apple.configuration.managed</string>
+            <string>com.apple.settings.managed</string>
             <key>PayloadVersion</key>
             <integer>1</integer>
             <key>PayloadIdentifier</key>
-            <string>com.apple.mobileconfig.iOS26Beta</string>
+            <string>com.apple.mobileconfig.iOS26Beta.dummy</string>
             <key>PayloadUUID</key>
-            <string>9A4F7E2D-3B4C-4A9F-8D12-7B6F5E9C1234</string>
+            <string>11111111-2222-3333-4444-555555555555</string>
             <key>PayloadDisplayName</key>
-            <string>iOS 26 Beta Profile</string>
+            <string>iOS 26 Beta Dummy Payload</string>
             <key>PayloadDescription</key>
-            <string>
-ENROLL IN IOS 26 BETA PROGRAM
-
-The iOS 26 Beta Profile allows your device to access the latest features and improvements.
-
-LIQUID GLASS DESIGN
-- Rounded, translucent elements that adapt to motion and content
-- Immersive visual experience across Lock Screen, Home Screen, and apps
-
-COMMUNICATION ENHANCEMENTS
-- Live Translation in Messages, FaceTime, and Phone calls
-- Call Screening for unwanted calls
-- Messages Improvements: polls, customizable backgrounds
-
-PRIVACY & SECURITY
-- Advanced privacy protections
-- Spam and security filters for messaging and calls
-
-PRODUCTIVITY FEATURES
-- Shortcuts Intelligence: AI-powered automation
-- Smart Reminders: improved organization tools
-
-MULTIMEDIA & ENTERTAINMENT
-- Apple Games: central hub for all games
-- Apple Music: AutoMix and lyrics translation
-
-DEVICE CUSTOMIZATION
-- Hold Assist: notifications for queue position
-- Customizable Lock Screen: dynamic 3D effects and wallpaper integration
-
-By installing this profile, your device will be configured to receive beta software updates directly from Apple.
-            </string>
-            <key>PayloadOrganization</key>
-            <string>Apple Inc.</string>
-            <key>PayloadContent</key>
-            <dict>
-                <!-- Empty payload: informational only -->
-            </dict>
+            <string>This is a dummy payload for display purposes only.</string>
         </dict>
     </array>
     <key>PayloadDisplayName</key>
@@ -66,7 +30,7 @@ By installing this profile, your device will be configured to receive beta softw
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadUUID</key>
-    <string>9A4F7E2D-3B4C-4A9F-8D12-7B6F5E9C1234</string>
+    <string>99999999-AAAA-BBBB-CCCC-DDDDDDDDDDDD</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
     <key>PayloadDescription</key>
